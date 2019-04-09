@@ -10,7 +10,7 @@ import UIKit
 
 class AuthViewController: UIViewController, Storyboarded {
 
-    weak var coordinator: MainCoordinator?
+    weak var coordinator: AuthCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()

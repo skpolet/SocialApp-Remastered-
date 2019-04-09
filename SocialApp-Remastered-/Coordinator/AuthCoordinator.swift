@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainCoordinator: Coordinator {
+class AuthCoordinator: Coordinator {
     
     var firstAuthController: AuthViewController
     
@@ -19,9 +19,10 @@ class MainCoordinator: Coordinator {
     }
     
     func start(){
-        let vc = TabBarController.instantiate()
-        vc.coordinator = self
-        firstAuthController.present(vc, animated: true, completion: nil)
+        let coordinator : TabBarCoordinator?
+        coordinator = TabBarVCCoordinator()
+        coordinator?.start()
+        firstAuthController.present(coordinator!.tabBarController, animated: true, completion: nil)
     }
     
 }

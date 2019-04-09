@@ -12,13 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var coordinator: MainCoordinator?
+    var coordinator: AuthCoordinator?
 
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let firstAuthConntroller = AuthViewController()
-        coordinator = MainCoordinator(controller: firstAuthConntroller)
+        coordinator = AuthCoordinator(controller: firstAuthConntroller)
 
         // create a basic UIWindow and activate it
         window = UIWindow(frame: UIScreen.main.bounds)
