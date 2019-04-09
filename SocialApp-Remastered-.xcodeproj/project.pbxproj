@@ -10,8 +10,8 @@
 		E158188E225CADA700244EA8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158188D225CADA700244EA8 /* Coordinator.swift */; };
 		E1581890225CADB700244EA8 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158188F225CADB700244EA8 /* MainCoordinator.swift */; };
 		E1581892225CADCA00244EA8 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1581891225CADCA00244EA8 /* Storyboarded.swift */; };
+		E1581895225CB05800244EA8 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1581894225CB05800244EA8 /* AuthViewController.swift */; };
 		E15E683C225C86BC00FDC1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E683B225C86BC00FDC1B0 /* AppDelegate.swift */; };
-		E15E683E225C86BC00FDC1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E683D225C86BC00FDC1B0 /* ViewController.swift */; };
 		E15E6841225C86BD00FDC1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15E683F225C86BD00FDC1B0 /* Main.storyboard */; };
 		E15E6843225C86BF00FDC1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15E6842225C86BF00FDC1B0 /* Assets.xcassets */; };
 		E15E6846225C86BF00FDC1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15E6844225C86BF00FDC1B0 /* LaunchScreen.storyboard */; };
@@ -21,9 +21,9 @@
 		E158188D225CADA700244EA8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		E158188F225CADB700244EA8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E1581891225CADCA00244EA8 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		E1581894225CB05800244EA8 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		E15E6838225C86BC00FDC1B0 /* SocialApp-Remastered-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialApp-Remastered-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15E683B225C86BC00FDC1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E15E683D225C86BC00FDC1B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E15E6840225C86BD00FDC1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15E6842225C86BF00FDC1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15E6845225C86BF00FDC1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,7 +65,6 @@
 				E15E684E225C877800FDC1B0 /* View Controllers */,
 				E15E684D225C876600FDC1B0 /* Coordinator */,
 				E15E683B225C86BC00FDC1B0 /* AppDelegate.swift */,
-				E15E683D225C86BC00FDC1B0 /* ViewController.swift */,
 				E15E683F225C86BD00FDC1B0 /* Main.storyboard */,
 				E15E6842225C86BF00FDC1B0 /* Assets.xcassets */,
 				E15E6844225C86BF00FDC1B0 /* LaunchScreen.storyboard */,
@@ -87,6 +86,7 @@
 		E15E684E225C877800FDC1B0 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E1581894225CB05800244EA8 /* AuthViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -176,10 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15E683E225C86BC00FDC1B0 /* ViewController.swift in Sources */,
 				E1581890225CADB700244EA8 /* MainCoordinator.swift in Sources */,
 				E1581892225CADCA00244EA8 /* Storyboarded.swift in Sources */,
 				E15E683C225C86BC00FDC1B0 /* AppDelegate.swift in Sources */,
+				E1581895225CB05800244EA8 /* AuthViewController.swift in Sources */,
 				E158188E225CADA700244EA8 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
