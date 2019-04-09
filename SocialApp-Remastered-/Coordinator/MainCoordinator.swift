@@ -6,16 +6,22 @@
 //  Copyright © 2019 Sergey Mikhailov. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class MainCoordinator: Coordinator {
-    var childCoordinators = [Coordinator]()
-    var navigationController: UINavigationController?
     
-    func start() -> UIViewController{
-        let vc = AuthViewController.instantiate()
-      return vc
+    var firstAuthController: AuthViewController
+    
+    init(controller: AuthViewController) {
+        firstAuthController = controller
+        firstAuthController = AuthViewController.instantiate()
+        firstAuthController.coordinator = self
+    }
+    
+    func start(){
+        let vc = TabBarController.instantiate()
+        vc.coordinator = self
+        firstAuthController.present(vc, animated: true, completion: nil)
     }
     
 }

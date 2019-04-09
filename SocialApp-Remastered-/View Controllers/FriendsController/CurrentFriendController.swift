@@ -1,5 +1,5 @@
 //
-//  AuthViewController.swift
+//  CurrentFriendController.swift
 //  SocialApp-Remastered-
 //
 //  Created by Sergey Mikhailov on 09/04/2019.
@@ -8,20 +8,15 @@
 
 import UIKit
 
-class AuthViewController: UIViewController, Storyboarded {
+class CurrentFriendController: UIViewController {
 
-    weak var coordinator: MainCoordinator?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func tapAuth(_ sender: Any) {
-        coordinator?.start()
-    }
-    
+
     /*
     // MARK: - Navigation
 

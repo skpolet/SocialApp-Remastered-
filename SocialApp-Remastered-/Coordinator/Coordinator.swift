@@ -10,8 +10,14 @@ import Foundation
 import UIKit
 
 protocol Coordinator {
-    var childCoordinators: [Coordinator] { get set }
-    var navigationController: UINavigationController? { get set }
-    
-    func start() -> UIViewController
+    func start()
 }
+
+protocol NavigationBarCoordinator: Coordinator {
+    var navigationController: UINavigationController { get }
+}
+
+protocol TabBarCoordinator: Coordinator {
+    var tabBarController: UITabBarController { get }
+}
+

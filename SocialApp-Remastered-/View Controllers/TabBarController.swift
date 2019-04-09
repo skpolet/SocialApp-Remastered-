@@ -1,5 +1,5 @@
 //
-//  AuthViewController.swift
+//  TabBarController.swift
 //  SocialApp-Remastered-
 //
 //  Created by Sergey Mikhailov on 09/04/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AuthViewController: UIViewController, Storyboarded {
+class TabBarController: UITabBarController,Storyboarded {
 
     weak var coordinator: MainCoordinator?
     
@@ -18,10 +18,7 @@ class AuthViewController: UIViewController, Storyboarded {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func tapAuth(_ sender: Any) {
-        coordinator?.start()
-    }
-    
+
     /*
     // MARK: - Navigation
 

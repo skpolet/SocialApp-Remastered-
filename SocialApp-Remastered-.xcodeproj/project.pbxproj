@@ -11,6 +11,18 @@
 		E1581890225CADB700244EA8 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158188F225CADB700244EA8 /* MainCoordinator.swift */; };
 		E1581892225CADCA00244EA8 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1581891225CADCA00244EA8 /* Storyboarded.swift */; };
 		E1581895225CB05800244EA8 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1581894225CB05800244EA8 /* AuthViewController.swift */; };
+		E1581897225CB5D500244EA8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1581896225CB5D500244EA8 /* TabBarController.swift */; };
+		E1581899225CB62600244EA8 /* FriendsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1581898225CB62600244EA8 /* FriendsListController.swift */; };
+		E158189F225CB69200244EA8 /* NewsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E158189E225CB69200244EA8 /* NewsListController.swift */; };
+		E15818A1225CB6A600244EA8 /* GroupsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818A0225CB6A600244EA8 /* GroupsListController.swift */; };
+		E15818A4225CC45200244EA8 /* AvatarViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818A3225CC45200244EA8 /* AvatarViewerController.swift */; };
+		E15818A6225CC4A700244EA8 /* CurrentGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818A5225CC4A700244EA8 /* CurrentGroupController.swift */; };
+		E15818A8225CC4BE00244EA8 /* CurrentNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818A7225CC4BE00244EA8 /* CurrentNewsController.swift */; };
+		E15818AA225CC4D800244EA8 /* CurrentFriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818A9225CC4D800244EA8 /* CurrentFriendController.swift */; };
+		E15818B6225CD5BD00244EA8 /* NewsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818B5225CD5BD00244EA8 /* NewsCoordinator.swift */; };
+		E15818B8225CD5E000244EA8 /* GroupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818B7225CD5E000244EA8 /* GroupCoordinator.swift */; };
+		E15818BA225CD5F600244EA8 /* FriendsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818B9225CD5F600244EA8 /* FriendsCoordinator.swift */; };
+		E15818BD225CDF2600244EA8 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15818BC225CDF2600244EA8 /* TabBarCoordinator.swift */; };
 		E15E683C225C86BC00FDC1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E683B225C86BC00FDC1B0 /* AppDelegate.swift */; };
 		E15E6841225C86BD00FDC1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15E683F225C86BD00FDC1B0 /* Main.storyboard */; };
 		E15E6843225C86BF00FDC1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15E6842225C86BF00FDC1B0 /* Assets.xcassets */; };
@@ -22,6 +34,18 @@
 		E158188F225CADB700244EA8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E1581891225CADCA00244EA8 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		E1581894225CB05800244EA8 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		E1581896225CB5D500244EA8 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E1581898225CB62600244EA8 /* FriendsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListController.swift; sourceTree = "<group>"; };
+		E158189E225CB69200244EA8 /* NewsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListController.swift; sourceTree = "<group>"; };
+		E15818A0225CB6A600244EA8 /* GroupsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsListController.swift; sourceTree = "<group>"; };
+		E15818A3225CC45200244EA8 /* AvatarViewerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewerController.swift; sourceTree = "<group>"; };
+		E15818A5225CC4A700244EA8 /* CurrentGroupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGroupController.swift; sourceTree = "<group>"; };
+		E15818A7225CC4BE00244EA8 /* CurrentNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentNewsController.swift; sourceTree = "<group>"; };
+		E15818A9225CC4D800244EA8 /* CurrentFriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentFriendController.swift; sourceTree = "<group>"; };
+		E15818B5225CD5BD00244EA8 /* NewsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCoordinator.swift; sourceTree = "<group>"; };
+		E15818B7225CD5E000244EA8 /* GroupCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCoordinator.swift; sourceTree = "<group>"; };
+		E15818B9225CD5F600244EA8 /* FriendsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCoordinator.swift; sourceTree = "<group>"; };
+		E15818BC225CDF2600244EA8 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		E15E6838225C86BC00FDC1B0 /* SocialApp-Remastered-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialApp-Remastered-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15E683B225C86BC00FDC1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15E6840225C86BD00FDC1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +65,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E158189A225CB63200244EA8 /* FriendsController */ = {
+			isa = PBXGroup;
+			children = (
+				E1581898225CB62600244EA8 /* FriendsListController.swift */,
+				E15818A9225CC4D800244EA8 /* CurrentFriendController.swift */,
+			);
+			path = FriendsController;
+			sourceTree = "<group>";
+		};
+		E158189C225CB65600244EA8 /* NewsController */ = {
+			isa = PBXGroup;
+			children = (
+				E158189E225CB69200244EA8 /* NewsListController.swift */,
+				E15818A7225CC4BE00244EA8 /* CurrentNewsController.swift */,
+			);
+			path = NewsController;
+			sourceTree = "<group>";
+		};
+		E158189D225CB66100244EA8 /* GroupsController */ = {
+			isa = PBXGroup;
+			children = (
+				E15818A0225CB6A600244EA8 /* GroupsListController.swift */,
+				E15818A5225CC4A700244EA8 /* CurrentGroupController.swift */,
+			);
+			path = GroupsController;
+			sourceTree = "<group>";
+		};
+		E15818A2225CC42800244EA8 /* AvatarViewerController */ = {
+			isa = PBXGroup;
+			children = (
+				E15818A3225CC45200244EA8 /* AvatarViewerController.swift */,
+			);
+			path = AvatarViewerController;
+			sourceTree = "<group>";
+		};
 		E15E682F225C86BC00FDC1B0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +137,10 @@
 			children = (
 				E158188D225CADA700244EA8 /* Coordinator.swift */,
 				E158188F225CADB700244EA8 /* MainCoordinator.swift */,
+				E15818BC225CDF2600244EA8 /* TabBarCoordinator.swift */,
+				E15818B5225CD5BD00244EA8 /* NewsCoordinator.swift */,
+				E15818B7225CD5E000244EA8 /* GroupCoordinator.swift */,
+				E15818B9225CD5F600244EA8 /* FriendsCoordinator.swift */,
 				E1581891225CADCA00244EA8 /* Storyboarded.swift */,
 			);
 			path = Coordinator;
@@ -86,7 +149,12 @@
 		E15E684E225C877800FDC1B0 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E15818A2225CC42800244EA8 /* AvatarViewerController */,
 				E1581894225CB05800244EA8 /* AuthViewController.swift */,
+				E1581896225CB5D500244EA8 /* TabBarController.swift */,
+				E158189D225CB66100244EA8 /* GroupsController */,
+				E158189C225CB65600244EA8 /* NewsController */,
+				E158189A225CB63200244EA8 /* FriendsController */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -176,10 +244,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15818B8225CD5E000244EA8 /* GroupCoordinator.swift in Sources */,
+				E158189F225CB69200244EA8 /* NewsListController.swift in Sources */,
+				E15818BA225CD5F600244EA8 /* FriendsCoordinator.swift in Sources */,
+				E15818A1225CB6A600244EA8 /* GroupsListController.swift in Sources */,
 				E1581890225CADB700244EA8 /* MainCoordinator.swift in Sources */,
+				E15818BD225CDF2600244EA8 /* TabBarCoordinator.swift in Sources */,
 				E1581892225CADCA00244EA8 /* Storyboarded.swift in Sources */,
 				E15E683C225C86BC00FDC1B0 /* AppDelegate.swift in Sources */,
+				E1581897225CB5D500244EA8 /* TabBarController.swift in Sources */,
+				E15818A8225CC4BE00244EA8 /* CurrentNewsController.swift in Sources */,
+				E15818B6225CD5BD00244EA8 /* NewsCoordinator.swift in Sources */,
+				E15818A6225CC4A700244EA8 /* CurrentGroupController.swift in Sources */,
+				E15818AA225CC4D800244EA8 /* CurrentFriendController.swift in Sources */,
+				E1581899225CB62600244EA8 /* FriendsListController.swift in Sources */,
 				E1581895225CB05800244EA8 /* AuthViewController.swift in Sources */,
+				E15818A4225CC45200244EA8 /* AvatarViewerController.swift in Sources */,
 				E158188E225CADA700244EA8 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
